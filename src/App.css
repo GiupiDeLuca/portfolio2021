@@ -1,13 +1,31 @@
 body {
+  margin: 0;
+  padding: 0;
+}
+
+.rootDiv {
   font-family: "Lato", sans-serif;
   /* font-family: 'Fredericka the Great', cursive; */
   color: whitesmoke;
-  background-image: url("old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg");
   background-position: center;
-  background-repeat:repeat;
+  background-repeat:no-repeat;
   background-size: cover;
   height: 100%;
   position: relative;
+  min-height: 100vh;
+}
+
+.rootDiv.darkMode {
+  background-image: url("old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg");
+}
+
+.rootDiv.lightMode {
+  /* background-color: whitesmoke; */
+  background-image: url("metal-texture-with-dust-scratches-cracks-textured-backgrounds.jpg");
+}
+
+.lightMode .greedingBox1, .lightMode .greedingBox2 {
+  color: black;
 }
 
 .navbar {
@@ -58,6 +76,7 @@ header nav {
   font-size: 60px;
   padding: 40px;
 }
+
 
 @media all and (max-width: 961px) {
   .navbar {

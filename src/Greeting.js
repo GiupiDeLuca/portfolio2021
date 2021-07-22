@@ -1,30 +1,35 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
 
-function Greeting() {
+function Greeting({isDark}) {
+  console.log("Dark", isDark)
   const props = useSpring({
     to: { opacity: 1 },
     from: { opacity: 0 },
     delay: 1000,
     config: { duration: 4000 },
+    // color: isDark ? "green" : "whitesmoke",
   });
   const props2 = useSpring({
     to: { opacity: 1 },
     delay: 1500,
     from: { opacity: 0 },
     config: { duration: 5000 },
+    // color: isDark ? "green" : "whitesmoke",
   });
   const props3 = useSpring({
     to: { opacity: 1 },
     from: { opacity: 0 },
     delay: 2500,
     config: { duration: 5000 },
+    // color: isDark ? "green" : "whitesmoke",
   });
   const props4 = useSpring({
     to: { opacity: 1 },
     from: { opacity: 0 },
     delay: 3200,
     config: { duration: 5000 },
+    // color: isDark ? "green" : "whitesmoke",
   });
 
   return (
