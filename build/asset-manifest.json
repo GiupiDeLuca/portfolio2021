@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio2021/static/css/main.eab4ffb6.chunk.css",
-    "main.js": "/portfolio2021/static/js/main.e8f11b52.chunk.js",
-    "main.js.map": "/portfolio2021/static/js/main.e8f11b52.chunk.js.map",
+    "main.css": "/portfolio2021/static/css/main.cc89df54.chunk.css",
+    "main.js": "/portfolio2021/static/js/main.6a1365cb.chunk.js",
+    "main.js.map": "/portfolio2021/static/js/main.6a1365cb.chunk.js.map",
     "runtime-main.js": "/portfolio2021/static/js/runtime-main.2c1faf28.js",
     "runtime-main.js.map": "/portfolio2021/static/js/runtime-main.2c1faf28.js.map",
-    "static/js/2.53f94d15.chunk.js": "/portfolio2021/static/js/2.53f94d15.chunk.js",
-    "static/js/2.53f94d15.chunk.js.map": "/portfolio2021/static/js/2.53f94d15.chunk.js.map",
+    "static/js/2.7065f285.chunk.js": "/portfolio2021/static/js/2.7065f285.chunk.js",
+    "static/js/2.7065f285.chunk.js.map": "/portfolio2021/static/js/2.7065f285.chunk.js.map",
     "index.html": "/portfolio2021/index.html",
-    "static/css/main.eab4ffb6.chunk.css.map": "/portfolio2021/static/css/main.eab4ffb6.chunk.css.map",
-    "static/js/2.53f94d15.chunk.js.LICENSE.txt": "/portfolio2021/static/js/2.53f94d15.chunk.js.LICENSE.txt",
+    "static/css/main.cc89df54.chunk.css.map": "/portfolio2021/static/css/main.cc89df54.chunk.css.map",
+    "static/js/2.7065f285.chunk.js.LICENSE.txt": "/portfolio2021/static/js/2.7065f285.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio2021/static/media/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.baa37059.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2c1faf28.js",
-    "static/js/2.53f94d15.chunk.js",
-    "static/css/main.eab4ffb6.chunk.css",
-    "static/js/main.e8f11b52.chunk.js"
+    "static/js/2.7065f285.chunk.js",
+    "static/css/main.cc89df54.chunk.css",
+    "static/js/main.6a1365cb.chunk.js"
   ]
 }
